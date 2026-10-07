@@ -11,7 +11,7 @@
 <div align="center">
   <a href="https://tunnelhunt.ru"><strong>Сайт проекта</strong></a>
   <span>•</span>
-  <a href="https://tunnelhunt.ru/dashboard"><strong>Панель управления</strong></a>
+  <a href="https://app.tunnelhunt.ru"><strong>Панель управления</strong></a>
 </div>
 
 <hr />
@@ -21,7 +21,7 @@
 Вам не нужно регистрироваться или устанавливать сторонние утилиты. Просто запустите команду в терминале, указав ваш локальный порт (например, `8080`):
 
 ```bash
-ssh -R 80:localhost:8080 tunnelhunt.ru
+ssh -R 80:localhost:8080 -p 2222 tunnelhunt.ru
 ```
 
 После выполнения команды в терминале появится ссылка вида `https://<subdomain>.tunnelhunt.ru`, по которой ваше локальное приложение будет доступно всему миру!
